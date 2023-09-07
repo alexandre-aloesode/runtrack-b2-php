@@ -1,16 +1,3 @@
-<!-- Dans le dossier job-03, faites un fichier index.php. À l’intérieur de ce fichier, faites une
-fonction insert_student(). Cette fonction devra insérer un nouvel étudiant en base de
-donnée.
-Dans la suite de votre page index.php, faites un formulaire avec pour méthode post. Ce
-formulaire aura les input suivant :
-
-- input type email, name = input-email
-- input type text, name = input-fullname
-- select avec deux option (male, female), name = input-gender
-- input type date, name = input-birthdate
-- input type number, name = input-grade_id -->
-
-
 <?php
 
 function insert_student(array $data)
@@ -70,7 +57,7 @@ function insert_student(array $data)
         <button type="submit" value="Submit">Soumettre</button>
     </form>
     <?php if (isset($_POST['input-email-student']) && isset($_POST['input-fullname']) && isset($_POST['input-gender']) && isset($_POST['input-birthdate']) && isset($_POST['input-grade_id'])) {
-        var_dump($_POST);
+        var_dump($_POST);   
         insert_student($_POST);
     } else {
         echo "Veuillez remplir tous les champs";

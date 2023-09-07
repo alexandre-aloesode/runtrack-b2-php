@@ -1,9 +1,3 @@
-<!-- Dans le dossier job-01, faites un fichier index.php. À l’intérieur de ce fichier faites une
-fonction find_all_students(). Cette fonction devra retourner un tableau avec toutes les
-lignes et toutes les colonnes de la table student sous forme de tableau associatif.
-Dans la suite de votre fichier PHP, faites une structure HTML basique et générer un
-tableau HTML à l’aide du retour de la fonction pour afficher tous les étudiants. -->
-
 <?php
 function find_all_students()
 {

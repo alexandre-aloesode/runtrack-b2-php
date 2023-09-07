@@ -1,11 +1,3 @@
-<!-- Dans le dossier job-05, faites un fichier index.php. À l’intérieur de ce fichier, faites une
-fonction find_full_rooms(). Cette fonction devra retourner les noms et la capacité des
-salles. Ajoutez une colonne pour indiquer si une salle est pleine avec les étudiants
-présents dedans. La fonction devra retourner un tableau avec la structure suivante :
-
-Dans la suite de votre fichier PHP, faites une structure HTML basique et générez un
-tableau avec le retour de la fonction pour afficher toutes les lignes récupérées. -->
-
 <?php
 function find_full_rooms()
 {
